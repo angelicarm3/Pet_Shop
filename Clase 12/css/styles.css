@@ -1,0 +1,232 @@
+* {
+    box-sizing: border-box;
+}   
+body {
+    background-color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    margin: 0;
+}
+
+header {
+    background-color: #F0A83E;
+    display: flex;
+    flex-direction: column;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+}
+
+.notification_bar {
+    background-color: #222222;
+    color: #F3F3F3;
+    display: flex;
+    font-size: 10px;
+    justify-content: space-between;
+    padding: 4px 60px 4px 90px;
+}
+
+.site_options {
+    display: flex;
+}
+
+.site_options li {
+    margin-left: 12px;
+}
+
+.dropdown {
+    width: 5.5px;
+}
+
+.main_header {
+    color: #FFFFFF;
+    display: flex;
+    font-size: 13px;
+    justify-content: space-between;
+    padding: 20px 40px;
+}
+
+.logo {
+    height: 23px;
+    width: 166.38px;
+}
+
+.paw_icon_list {
+    display: flex;
+}
+
+.paw_icon_list li{
+    margin-left: 20px;
+}
+
+.pawprint_1{
+    height: 14px;
+    width: 15px;
+}
+
+.banner {
+    align-items: flex-end;
+    background-image: url(../img/bowl_green_background.png);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    height: 409px;    
+    justify-content: center;
+    padding: 12px;
+}
+
+.banner_info{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.banner_info span{
+    margin-bottom: 12px;
+}
+.banner_tittle {
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    color: #3C2313;
+    font-size: 30px;
+    height: 54px;
+    padding: 10px;
+    text-align: center;
+    width: 365px;
+}
+
+.banner_subtitle {
+    color: #3C2313;
+    font-size: 16px;
+}
+
+.main_button {
+    background-color: #F0A83E;
+    border: none;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-size: 16px;
+    height: 49px;
+    width: 141px;
+}
+
+.highlight_products{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.products_header{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding-bottom : 20px;
+}
+
+.icon_pawprint {
+    width: 67px;
+    height: 71px;
+}
+
+h1 {
+    color: #3C2313;
+    font-size: 40px;
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+
+.highlight_menu {
+    color: #666666;
+    display: flex;
+    font-size: 15px;
+}
+
+.products_header li{
+    margin-left: 13px;
+}
+
+.products_display{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.product {
+    align-items: center;
+    background-color: #FBFAF6;
+    display: flex;
+    flex-direction: column;
+    height: 312px;
+    justify-content: flex-end;
+    padding: 7px;
+    width: 265px;
+}
+
+.churrasquito {
+    background-image: url(../img/churrasquito.png);
+}
+
+.comedero {
+    background-image: url(../img/comedero.png);
+}
+
+.huesito {
+    background-image: url(../img/huesito.png);
+}
+
+.product_name {
+    color: #3C2313;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.product_price {
+    color: #F0A83E;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.contact_info{
+    align-items: center;
+    background-color: #3C2313;
+    display: flex;
+    justify-content: space-between;
+    padding: 3px 70px 23px ;
+}
+
+.business_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.business_info article{
+    display: flex;
+    padding-top: 20px;
+}
+
+.info_box {
+    display: flex;
+    flex-direction: column;
+    padding-left: 25px;
+}
+
+.title_info {
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.details_info {
+    color: #8A8787;
+    font-size: 10px;
+    font-weight: 700;
+}
+
+footer {
+    background-color: #222222;
+    color: #FFFFFF;
+    font-size: 10px;
+    text-align: center;
+}
